@@ -1,0 +1,3 @@
+This repo hosts a simple web based simple library. The library stores a list of books in an array and displays the books. Users can add and remove books. Each book shows the author, title number of pages and an indicator to show if the user has read the book.
+
+This project helps me to further practise what I have learnt in CSS, HTML and to learn new concepts and methods such as layout, styling, DOM manipulation and JavaScript array and objects.
