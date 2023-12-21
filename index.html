@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Library</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <dialog id="dialog-box">
+    <form id="dialog">
+      <div class="input" id="dialog-header">
+        <h1>Add a new book</h1>
+        <button type="reset" id="cancel-dialog">
+          <img src="./assets/images/remove.png" alt="cancel icon" width="25" height="25">
+        </button>
+      </div>
+      <input class="input"  type="text" name="title" placeholder="Title" required>
+      <input  class="input" type="text" name="author" placeholder="Author" required>
+      <input  class="input" type="number" name="pages" placeholder="Number of pages" min="1" required>
+      <div class="input" id="read-bx">
+        <label for="read">Have you read this book?</label>
+        <input type="checkbox" id="read" name="read">
+      </div>
+      <button id="submit" class="input" type="submit" formmethod="dialog">Add</button>
+    </form>
+  </dialog>
+  <div id="header">
+    <div>library</div>
+    <button id="log-in">log in</button>
+  </div>
+  <div id="main">
+    <button id="add-btn">
+      <img src="./assets/images/plus.png" alt="plus icon" width="25" height="25">
+      <p>Add Book</p>
+    </button>
+    <div id="content"></div>
+  </div>
+
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
